@@ -24,3 +24,9 @@ if(rain) //condition is false
     console.log("It's raining");
 else
     console.log("Enjoy the sunshine");
+
+
+
+
+
+
