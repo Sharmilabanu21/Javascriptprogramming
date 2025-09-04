@@ -8,8 +8,7 @@ function favorite() //function created
     console.log("My favorite actress is "+favactress)//write in function
     console.log("My favorite movie is "+favmovie)//write in function
 }
-favorite() //function call
-
+favorite() //func call
 //__________________________________________________________________//
 
 //function Parameter
