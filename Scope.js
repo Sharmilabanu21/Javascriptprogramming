@@ -1,10 +1,10 @@
 // Scope 
-let globalVar = "I am global";
+let global = "I am global";
 
 function scope() {
-  let localVar = "I am local";
-  console.log(globalVar); // Works
-  console.log(localVar);  // Works
+  let local = "I am local";
+  console.log(global); // Works
+  console.log(local);  // Works
 }
  
 scope();
@@ -17,23 +17,23 @@ console.log(globalVar); // Works
 var globalVar = "I am global";
 
 function showGlobal() {
-  console.log(globalVar); //  Accessible here
+  console.log(global); //  Accessible here
 }
 
 showGlobal();
-console.log(globalVar); //  Accessible here also
+console.log(global); //  Accessible here also
 
 // ___________________________________________________________//
 
 // function scope
 function testFunctionScope() {
-  var localVar = "I am inside function";
-  console.log(localVar); //  Accessible here
+  var local = "I am inside function";
+  console.log(local); //  Accessible here
 }
 
 testFunctionScope();
 
-// console.log(localVar); //  Error: localVar is not defined
+// console.log(local); //  Error: local is not defined
 
 
 
