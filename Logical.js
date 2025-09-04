@@ -18,7 +18,6 @@ if (true && false) {
 
 //_________________________________________________________________//
 
-
 //Logical OR - ||
 // At least one condition is true all statements will be true
 // If either operand is true, it returns true
