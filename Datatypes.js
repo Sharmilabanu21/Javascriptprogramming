@@ -4,11 +4,11 @@
 // string
 let name = "Sharmila";   // double quotes
 let city = 'Coimbatore'; // single quotes
-let greet = `Hello `; // template literal (backticks)
+let greet = `Hello`; // template literal (backticks)
 
 console.log(name);   // Sharmila
 console.log(city);   // Coimbatore
-console.log(greet);  // Hello
+console.log(greet);  // Hello Sharmila
 
 //Number
 let age = 22;          // integer
