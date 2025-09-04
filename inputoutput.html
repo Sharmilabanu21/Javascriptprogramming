@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input and Output in JS</title>
+</head>
+<body>
+  <h1>JavaScript Input & Output</h1>
+
+  <script>
+    // --- OUTPUT METHODS ---
+
+    // 1. console.log() → shows output in browser console
+    console.log("Hello from console.log()");
+
+    // 2. alert() → shows a popup alert
+    alert("Hello from alert!");
+
+    // 3. document.write() → writes directly on the web page
+    document.write("<p>Hello from document.write()</p>");
+
+
+    // --- INPUT METHODS ---
+
+    // 1. prompt() → takes input from user (string)
+    let name = prompt("Enter your name:");
+    document.write("<p>Your name is: " + name + "</p>");
+
+    // 2. confirm() → asks for OK/Cancel (true/false)
+    let isStudent = confirm("Are you a student?");
+    document.write("<p>Student: " + isStudent + "</p>");
+  </script>
+</body>
+</html>
